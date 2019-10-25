@@ -29,6 +29,9 @@
     "DATABASE_URL": {
       "value": "$JAWSDB_URL"
     },
+    "HEROKU_APP_NAME": {
+      "required": true
+    },
     "PULSE_PUSH_SOURCES": {
       "required": true
     },
@@ -37,9 +40,6 @@
     },
     "ROOT_URL": {
       "value": "https://taskcluster.net"
-    },
-    "SITE_URL": {
-      "value": "https://treeherder-prototype-pr-TBD.herokuapp.com/"
     },
     "TREEHERDER_DJANGO_SECRET_KEY": {
       "value": "secret-key-of-at-least-50-characters-to-pass-check-deploy"
